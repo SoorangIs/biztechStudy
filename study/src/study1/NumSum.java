@@ -23,17 +23,15 @@ public class NumSum {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		/**
-		 * ÀÚ¿¬¼ö NÀÌ ÁÖ¾îÁö¸é, NÀÇ °¢ ÀÚ¸´¼öÀÇ ÇÕÀ» ±¸ÇØ¼­ return ÇÏ´Â solution ÇÔ¼ö¸¦ ¸¸µé¾î ÁÖ¼¼¿ä.
-		 * ¿¹¸¦µé¾î N = 123ÀÌ¸é 1 + 2 + 3 = 6À» return ÇÏ¸é µË´Ï´Ù.
+		 * ìì—°ìˆ˜ Nì´ ì£¼ì–´ì§€ë©´, Nì˜ ê° ìë¦¿ìˆ˜ì˜ í•©ì„ êµ¬í•´ì„œ return í•˜ëŠ” solution í•¨ìˆ˜ë¥¼ ë§Œë“¤ì–´ ì£¼ì„¸ìš”.
+		 * ì˜ˆë¥¼ë“¤ì–´ N = 123ì´ë©´ 1 + 2 + 3 = 6ì„ return í•˜ë©´ ë©ë‹ˆë‹¤.
 		 */
+		
 		NumSum numSum = new NumSum();
 		NumSum.Solution sol = numSum.new Solution(); 
 		
 		System.out.println(sol.solution(272));
-		
 
 	}
-	
-	
 
 }
