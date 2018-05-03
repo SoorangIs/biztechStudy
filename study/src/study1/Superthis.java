@@ -1,6 +1,6 @@
 package study1;
 
-public class superthis {
+public class Superthis {
 
 	public static void main(String[] args) {
 		
@@ -24,7 +24,6 @@ class D {
 		a = 3; b=4; c=5; d=1; e=2; f=6;
 	}
 	public D(int c) {
-		//this()는 상위 D() 값을 불러온다. 안적으면 없으
 		this();
 		this.d = c;
 	}
