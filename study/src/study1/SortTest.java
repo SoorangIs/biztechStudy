@@ -14,22 +14,19 @@ public class SortTest {
 				, new Man("Love", 10)
 		};
 		
-		System.out.println("Àü");
+		System.out.println("ï¿½ï¿½");
 		print(mans);
 		
 		Arrays.sort(mans);
-		System.out.println("ÈÄ");
+		System.out.println("ï¿½ï¿½");
 		print(mans);
 	}
 	
 	public static void print(Man[] mans) {
 
 		for (int i = 0; i < mans.length; i++) {
-
 			System.out.println(mans[i]);
-
 		}
-
 
 	}
 
