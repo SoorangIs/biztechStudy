@@ -8,6 +8,7 @@ public class IncaCalendar {
 		Scanner scan = new Scanner(System.in);
 //		System.out.println(scan);
 	}
+	//이거 왜
 	
 	//최대 공약수
 	int gcd(int a, int b) {
